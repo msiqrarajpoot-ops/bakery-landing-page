@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Golden Crumb Bakery — artisan breads, pastries and cakes baked fresh every morning." />
+  <title>Golden Crumb Bakery | Freshly Baked Every Day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav">
+      <a href="#top" class="brand">
+        <span class="brand-mark">🥐</span>
+        <span class="brand-name">Golden Crumb</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#visit">Visit Us</a></li>
+        <li><a href="#visit" class="btn btn-small">Order Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Est. 1998 · Baked fresh daily</p>
+        <h1>Warm Bread,<br />Sweet Mornings</h1>
+        <p class="lede">
+          Hand-shaped loaves, buttery croissants and celebration cakes —
+          made from scratch by bakers who start before sunrise.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">Explore the Menu</a>
+          <a href="#visit" class="btn btn-ghost">Find Our Shop</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>25+</strong><span>Years baking</span></li>
+          <li><strong>40</strong><span>Daily recipes</span></li>
+          <li><strong>4.9★</strong><span>Local rating</span></li>
+        </ul>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="hero-emoji">🍞</div>
+      </div>
+    </section>
+
+    <section class="features" aria-label="Why choose us">
+      <div class="feature"><span>🌾</span><h3>Stone-Milled Flour</h3><p>Locally sourced grain, milled in small batches for deeper flavour.</p></div>
+      <div class="feature"><span>🕒</span><h3>Baked at 4 AM</h3><p>The ovens are lit early so every shelf is warm by opening time.</p></div>
+      <div class="feature"><span>🌿</span><h3>No Preservatives</h3><p>Just flour, water, salt, time — and a whole lot of butter.</p></div>
+      <div class="feature"><span>🚚</span><h3>Free Local Delivery</h3><p>Order before 6 PM and we'll bring breakfast to your door.</p></div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="section-head">
+        <p class="eyebrow">Fresh from the oven</p>
+        <h2>Today's Menu</h2>
+        <p class="section-sub">A rotating selection — here's what's cooling on the racks right now.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="card">
+          <div class="card-emoji">🥐</div>
+          <div class="card-body">
+            <div class="card-top"><h3>Butter Croissant</h3><span class="price">$3.50</span></div>
+            <p>72-hour laminated dough, baked until the layers shatter.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-emoji">🍞</div>
+          <div class="card-body">
+            <div class="card-top"><h3>Sourdough Loaf</h3><span class="price">$6.00</span></div>
+            <p>Naturally leavened for two days with a crackling dark crust.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-emoji">🧁</div>
+          <div class="card-body">
+            <div class="card-top"><h3>Vanilla Cupcake</h3><span class="price">$3.25</span></div>
+            <p>Madagascar vanilla sponge topped with swiss buttercream.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-emoji">🥨</div>
+          <div class="card-body">
+            <div class="card-top"><h3>Sea Salt Pretzel</h3><span class="price">$2.75</span></div>
+            <p>Lye-dipped, soft in the middle, finished with flaky salt.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-emoji">🍰</div>
+          <div class="card-body">
+            <div class="card-top"><h3>Strawberry Gateau</h3><span class="price">$28.00</span></div>
+            <p>Layered cream sponge with seasonal berries — serves eight.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-emoji">🍪</div>
+          <div class="card-body">
+            <div class="card-top"><h3>Brown Butter Cookie</h3><span class="price">$2.50</span></div>
+            <p>Dark chocolate chunks, sea salt, crisp edge, chewy centre.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-art" aria-hidden="true">🥖</div>
+      <div class="about-text">
+        <p class="eyebrow">Our story</p>
+        <h2>Three Generations, One Recipe Book</h2>
+        <p>
+          Golden Crumb began as a single stone oven in a corner shop. Today,
+          the same handwritten recipe book sits on our counter — dog-eared,
+          flour-dusted, and still the final word on every loaf we bake.
+        </p>
+        <p>
+          We believe good bread can't be rushed. That's why our doughs rest
+          overnight, our butter is folded by hand, and our bakers know every
+          regular by name.
+        </p>
+        <ul class="about-list">
+          <li>Family-run since 1998</li>
+          <li>Award-winning sourdough</li>
+          <li>Custom cakes for every occasion</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="section-head">
+        <p class="eyebrow">Kind words</p>
+        <h2>What Locals Say</h2>
+      </div>
+      <div class="quote-grid">
+        <blockquote class="quote">
+          <p>“The croissants ruined every other croissant for me. Flaky, buttery, perfect.”</p>
+          <footer>— Maya R.</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p>“Ordered a birthday cake with 24 hours' notice and it was flawless.”</p>
+          <footer>— Daniel K.</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p>“Smells like heaven at 7 AM. My commute has a new mandatory stop.”</p>
+          <footer>— Priya S.</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="visit-card">
+        <div class="visit-info">
+          <p class="eyebrow">Come say hello</p>
+          <h2>Visit the Bakery</h2>
+          <ul class="visit-details">
+            <li><strong>Address</strong><span>14 Mill Lane, Riverside, York YO1 9AB</span></li>
+            <li><strong>Hours</strong><span>Mon–Sat 7:00 AM – 6:00 PM<br />Sun 8:00 AM – 2:00 PM</span></li>
+            <li><strong>Phone</strong><span>(01904) 555 0132</span></li>
+            <li><strong>Email</strong><span>hello@goldencrumb.example</span></li>
+          </ul>
+          <a class="btn btn-primary" href="mailto:hello@goldencrumb.example">Reserve a Cake</a>
+        </div>
+        <form class="visit-form" id="newsletter">
+          <h3>Get the weekend special</h3>
+          <p>One email a week. New bakes, secret menu items, no spam.</p>
+          <label class="sr-only" for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          <button type="submit" class="btn btn-primary btn-block">Subscribe</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="#top" class="brand"><span class="brand-mark">🥐</span><span class="brand-name">Golden Crumb</span></a>
+      <p>Baked fresh, every single day.</p>
+      <ul class="footer-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#visit">Contact</a></li>
+      </ul>
+      <p class="copyright">© <span id="year"></span> Golden Crumb Bakery. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
